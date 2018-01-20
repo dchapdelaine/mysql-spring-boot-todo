@@ -377,7 +377,7 @@ When you refresh the app, a **Time Created** column is now visible. When you add
 
 While your Java application runs in Azure App Service, you can get the console logs piped directly to your terminal. That way, you can get the same diagnostic messages to help you debug application errors.
 
-To start log streaming, use the [az webapp log tail](/cli/azure/webapp/log?view=azure-cli-latest#az_webapp_log_tail) command in the Cloud Shell.
+To start log streaming, use the az webapp log tail command in the Cloud Shell.
 
 ```azurecli-interactive 
 az webapp log tail --name <app_name> --resource-group myResourceGroup 
@@ -403,6 +403,10 @@ These tabs in the blade show the many great features you can add to your web app
 * Configure continuous deployment
 * Scale up and out
 * Add user authentication
+
+## Next steps
+
+Now that you know how to deploy from your own machine, you can look at VSTS to create your own build and release pipeline. Visit http://java.visualstudio.com/Docs/Index to learn more and get started.
 
 ## Clean up resources
 
