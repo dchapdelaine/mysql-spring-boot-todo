@@ -262,7 +262,7 @@ az webapp config appsettings set --settings SPRING_DATASOURCE_PASSWORD=Javaapp_p
 
 ### Get FTP deployment credentials 
 You can deploy your application to Azure appservice in various ways including FTP, local Git, GitHub, Visual Studio Team Services, and BitBucket. 
-For this example, FTP to deploy the .WAR file built previously on your local machine to Azure App Service.
+For this example, FTP to deploy the .JAR file built previously on your local machine to Azure App Service.
 
 To determine what credentials to pass along in an ftp command to the Web App, Use [az appservice web deployment list-publishing-profiles](https://docs.microsoft.com/cli/azure/appservice/web/deployment#az_appservice_web_deployment_list_publishing_profiles) command in the Cloud Shell: 
 
@@ -292,7 +292,7 @@ Name (waws-prod-blu-069.ftp.azurewebsites.windows.net:raisa): app_name\$app_name
 331 Password required
 Password:
 cd /site/wwwroot
-put target/TodoDemo-0.0.1-SNAPSHOT.war ROOT.jar
+put target/TodoDemo-0.0.1-SNAPSHOT.jar ROOT.jar
 put deployment/web.config web.config
 ```
 
