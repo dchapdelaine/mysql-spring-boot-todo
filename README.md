@@ -64,7 +64,7 @@ In this step, you clone sample Spring boot app, configure it to use the local My
 In the terminal window, navigate to a working directory and clone the sample repository. 
 
 ```bash
-git clone https://github.com/azure-samples/mysql-spring-boot-todo
+git clone https://github.com/dchapdelaine/mysql-spring-boot-todo.git
 ```
 
 ### Configure the app to use the MySQL database
